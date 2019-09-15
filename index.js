@@ -103,9 +103,4 @@ class Delivery {
         return neighborhood.id === this.neighborhoodId;
       }.bind(this));
   }
-
-  //shorter code - using arrow function
-  // neighborhood() {
-  //   return store.neighborhoods.find(neighborhood => neighborhood.id === this.neighborhoodId);
-  // }
 }
